@@ -1,0 +1,108 @@
+// 20231007085939
+// https://cloud.carnavaltactical.com/Plugin-Repository/repository.json
+
+{
+  "plugins": [
+    {
+      "id": "dmixbill-plugin-mikrotik-import",
+      "name": "Mikrotik Import",
+      "description": "Import existing Mikrotik Hotspot Package and User to PHPNuxBill. This script will import Users and Profiles, but will not add active packages to user.",
+      "author": "dhafanp",
+      "url": "https://github.com/dhaffnavyz/dmixbill-plugin-mikrotik-import",
+      "github": "https://github.com/dhaffnavyz/dmixbill-plugin-mikrotik-import",
+      "last_update": "2022-12-14"
+    },
+    {
+      "id": "Plugin-Tripay-View-Payment",
+      "name": "Tripay View Payment",
+      "description": "Dengan Plugin ini, Pembeli tidak akan diarahkan ke Web Tripay, instruksi pembayaran akan langsung ditampilkan.",
+      "author": "dhafanp",
+      "url": "https://github.com/dhaffnavyz/Plugin-Tripay-View-Payment",
+      "github": "https://github.com/dhaffnavyz/Plugin-Tripay-View-Payment",
+      "last_update": "2023-09-27"
+    },
+    {
+      "id": "plugin-test-port",
+      "name": "Port Tester",
+      "description": "Check if your server block some port.",
+      "author": "dhafanp",
+      "url": "https://github.com/dhaffnavyz/plugin-test-port",
+      "github": "https://github.com/dhaffnavyz/plugin-test-port",
+      "last_update": "2023-08-23"
+    }
+  ],
+  "payment_gateway": [
+    {
+      "id": "dmixbill-paypal",
+      "name": "Paypal",
+      "description": "Paypal Gateway, Country supported by Paypal",
+      "author": "dhafanp",
+      "url": "https://paypal.com",
+      "github": "https://github.com/dhaffnavyz/dmixbill-paypal",
+      "last_update": "2023-03-12"
+    },
+    {
+      "id": "dmixbill-duitku",
+      "name": "Duitku",
+      "description": "Duitku only in Indonesia",
+      "author": "dhafanp",
+      "url": "https://duitku.com",
+      "github": "https://github.com/dhaffnavyz/dmixbill-duitku",
+      "last_update": "2023-03-12"
+    },
+    {
+      "id": "dmixbill-tripay",
+      "name": "Tripay",
+      "description": "Tripay only in Indonesia",
+      "author": "dhafanp",
+      "url": "https://tripay.co.id/?ref=TP19304",
+      "github": "https://github.com/dhaffnavyz/dmixbill-tripay",
+      "last_update": "2023-09-27"
+    },
+    {
+      "id": "dmixbill-tripay-proxy",
+      "name": "Tripay Proxy",
+      "description": "Tripay only in Indonesia. Payment Gateway ini untuk pengguna NuxBill yang tidak punya IP static",
+      "author": "dhafanp",
+      "url": "https://tripay.co.id/?ref=TP19304",
+      "github": "https://github.com/dhaffnavyz/dmixbill-tripay-proxy",
+      "last_update": "2023-09-27"
+    },
+    {
+      "id": "dmixbill-xendit",
+      "name": "Xendit",
+      "description": "xendit only in Indonesia, Phillipine untested",
+      "author": "dhafanp",
+      "url": "https://xendit.com",
+      "github": "https://github.com/dhaffnavyz/dmixbill-xendit",
+      "last_update": "2023-03-12"
+    },
+    {
+      "id": "dmixbill-bkash",
+      "name": "bKash",
+      "description": "Payment Gateway for Bangladesh",
+      "author": "dhafanp",
+      "url": "https://www.bkash.com",
+      "github": "https://github.com/dhaffnavyz/dmixbill-bkash",
+      "last_update": "2023-7-7"
+    },
+    {
+      "id": "dmixbill-flutterwave-payment-gateway",
+      "name": "Flutterwave",
+      "description": "Payment Gateway FlutterWave",
+      "author": "Focuslinkstech",
+      "url": "https://github.com/Focuslinkstech/dmixbill-flutterwave-payment-gateway",
+      "github": "https://github.com/dhaffnavyz/dmixbill-flutterwave-payment-gateway",
+      "last_update": "2023-7-28"
+    },
+    {
+      "id": "dmixbill-paystack-payment-gateway",
+      "name": "Paystack",
+      "description": "Payment Gateway Paystack.com",
+      "author": "Focuslinkstech",
+      "url": "https://github.com/Focuslinkstech/dmixbill-paystack-payment-gateway",
+      "github": "https://github.com/dhaffnavyz/dmixbill-paystack-payment-gateway",
+      "last_update": "2023-7-28"
+    }
+  ]
+}
